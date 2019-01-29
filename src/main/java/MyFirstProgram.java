@@ -12,13 +12,11 @@ public class MyFirstProgram {
       System.out.println(("2"+"2"));
       System.out.println("2"+2);
       System.out.println("2+2=" +(2+2));
-      Square square= new Square(2, 3);
+      Square square= new Square(1, 1);
+      System.out.println("square area = "+ square.area());
+
       square.a=2;
       square.b=3;
-      Integer integer= setName(square.a, square.b);
-      System.out.println("sun="+ integer);
-  }
-  private static Integer setName(int a, int b){
-      return a+b;
+      System.out.println("square area = "+ square.area());
   }
 }
